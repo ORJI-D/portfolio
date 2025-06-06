@@ -35,7 +35,7 @@ header {
     z-index: 1000;
 }
 
-nav {
+/*nav {
     width: 80%;
     margin: 0 auto;
     display: flex;
@@ -61,7 +61,43 @@ nav {
 
 .nav-links a:hover {
     color:#3E2723;
+}*/
+nav {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Highlight the active navigation link 
+.nav-links a.active {
+    /*background: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.nav-links a:hover {
+    color:#3E2723;
+}*/
 
 /* Home Section */
 #home {
